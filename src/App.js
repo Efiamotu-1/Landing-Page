@@ -1,23 +1,15 @@
-import logo from './logo.svg';
+// import { SendOutlined } from '@material-ui/icons';
 import './App.css';
+import PermanentDrawer from './components/Drawer';
+import Layout from './components/Layout';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="">
+      <Layout />
+        <PermanentDrawer />
+      
     </div>
   );
 }

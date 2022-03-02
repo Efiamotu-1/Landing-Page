@@ -1,0 +1,190 @@
+.flex-grid{
+    display: flex;
+    flex-grow: 1;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.flex-grid-right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+/* .border-bottom-typo{
+   border-bottom: 2px solid blue;
+   margin-left: 20px;
+   margin-right: 20px;
+} */
+.grow{
+    flex-grow: 1;
+}
+
+.green-border{
+    border: none;
+    border-radius: 35px;
+}
+.flex-container{
+    display: flex;
+}
+
+.boxed-color{
+    width: 250px;
+    height: 60px;
+    background-image: linear-gradient(to right, rgba(28, 41, 160, 0.8) , rgb(15, 61, 214, 0.6));
+}
+
+.thick-boxed-color{
+    background-color: blue;
+    width: 10px;
+    height: 60px;
+}
+.flex-boxed-color{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.boxed-color-red{
+    width: 250px;
+    height: 60px;
+    background-image: linear-gradient(to right, rgba(160, 37, 28, 0.8) , rgba(214, 38, 15, 0.6));
+}
+
+.thick-boxed-color-red{
+    background-color: rgb(233, 10, 2);
+    width: 10px;
+    height: 60px;
+}
+
+.boxed-color-yellow{
+    width: 250px;
+    height: 60px;
+    background-image: linear-gradient(to right, rgba(247, 198, 40, 0.8) , rgba(252, 194, 36, 0.6));
+}
+
+.thick-boxed-color-yellow{
+    background-color: rgb(255, 118, 5);
+    width: 10px;
+    height: 60px;
+}
+
+.toon-container{
+    border: 1px solid purple;
+    border-radius: 40px;
+    width: 170px;
+    position: absolute;
+    top: 100px;
+    right: 40px;
+}
+
+.purple-progress-bar{
+    background-image: linear-gradient(to right, rgba(61, 2, 138, 0.8) , rgba(245, 4, 225, 0.6));
+    width: 160px;
+    border-radius: 30px;
+    margin-right: -40px;
+    height: 50px;
+}
+
+.black-progress-bar{
+    width: 80px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: black;
+}
+
+.progress-bar{
+    position: absolute;
+    bottom : 120px;
+    right: 30px;
+}
+
+.todo{
+    background-color: blue;
+    height: 5px;
+    width: 40px;
+
+}
+
+.inprogress{
+        background-color: rgb(247, 78, 78);
+        height: 5px;
+        width: 40px;
+    
+}
+
+.completed{
+    background-color: rgb(245, 61, 6);
+    height: 5px;
+    width: 40px;
+
+}
+
+.flexxx{
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+
+}
+
+.todo-flex{
+    display: flex;
+    align-items: baseline;
+    /* justify-content: s; */
+}
+
+.flex-task{
+    display: flex;
+    align-items: center;
+}
+
+.task-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.chart-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.chart-flex-right{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.flex-project{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.white-button-icon{
+    color: green;
+    background-color: white;
+    border-radius: 25px;
+    width: 70px;
+    padding: 10px;
+    margin-right: -50px;
+    position: absolute;
+    left: 0px;
+    /* height: 50px; */
+}
+
+/* .flex-project-button{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.button-grey{
+    width: 200px;
+    height: 50px;
+    background-color: #cbd5e0;
+    margin-left: auto;
+    margin-right: a;
+} */
