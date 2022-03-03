@@ -2,7 +2,6 @@
 import "./GridLayout.css";
 
 import Chart from './Chart'
-import { CartesianGrid } from "recharts";
 import bike from '../images/bike-man.png'
 import {Avatar, Button} from "@mui/material";
 import RefreshOutlined from "@material-ui/icons/RefreshOutlined"
@@ -218,7 +217,7 @@ export default function GridLayout() {
           </Card>
           </Grid>
           <Grid item xs={6} md={4}>
-            <Card sx={{backgroundColor: '#edf2f7', textAlign:'center'}} elevation={0}>
+            <Card sx={{backgroundColor: '#edf2f7', textAlign : 'center'}} elevation={0}>
               <CardContent sx={{marginLeft : 'auto', marginRight : 'auto'}}>
               <Calendar />
               </CardContent>
@@ -300,11 +299,7 @@ export default function GridLayout() {
           <Chart />
           </Grid>
 
-          <Grid item xs={6} md={4}>
-          <Typography paragraph>
-                  Hello
-                </Typography>
-          </Grid>
+          
             
         </Grid>
   )

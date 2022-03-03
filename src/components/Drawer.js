@@ -18,10 +18,6 @@ import {
   AddCircleOutlined,
   AddOutlined,
   BusinessCenterOutlined,
-  CompassCalibration,
-  DashboardSharp,
-  NotificationsOffOutlined,
-  RadioSharp,
   Search,
   Settings,
 } from "@material-ui/icons";
